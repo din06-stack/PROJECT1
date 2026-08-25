@@ -1,0 +1,343 @@
+body{
+    /*background-color: #030e1b;
+    /*background-color: #1B3C53;*/
+    color:white;
+    font-family: 'Poppins', Courier, monospace;
+    /*color: rgba(255, 255, 255, 0.7);*/
+    background-color: #0b0c0c;
+}
+
+p{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+a:link {
+    text-decoration:underline;
+}
+
+/*menu*/
+.nav-menu {
+    list-style: none; /* hilangin bullet */
+    display: flex; /* bikin horizontal */
+    gap: 20px; /* jarak antar menu */
+    margin: 0;
+    padding: 0;
+    margin-left: 450px;
+    /*margin-top: 20px;*/
+    align-items: right;
+    z-index: 1000; /*biar di atas elemen lain*/
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#link{
+    text-decoration: none;
+    color: white;
+}
+
+.box1{
+    /*background-color: #07182c;*/
+    background-color: #141414;
+    width: 1250px;
+    height: 70px;
+    opacity: 100%;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    position: fixed;
+    margin-left: 0px;
+}
+
+.sub{
+    font-size: 20px;
+}
+
+/*home*/
+#foto{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.foto2 {
+    border-radius: 8px;
+}
+
+#nama{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-family: 'Poppins', Courier, monospace;
+    font-weight: bold;
+}
+
+#prodi{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 8px;
+    font-weight: 400;
+}
+
+.home{
+    text-align: center;
+}
+
+/*about me*/
+#me::first-letter{
+    font-size: 120%;
+    font-style: bold;
+    color: white;
+}
+
+#me{
+    font-size: 16px;
+    padding: 5px;
+    margin-top: 0;
+}
+
+.about-me {
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+
+#dinda {
+    height: 250px;
+    width: 190px;
+    margin-top: 70px;
+    margin-right: 20px;
+    float: left;
+    padding: 5px;
+}
+
+.box2{
+    /*background-color: #07182c;*/
+    background-color: #141414;
+    width: 100%;
+    height: 400px;
+    opacity: 100%;
+    place-items: left;
+    border-radius: 0px;
+    padding: 10px;
+}
+
+/*skills*/
+.skills-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 kolom sama besar */
+    gap: 5px; /* jarak antar kolom */
+    max-width: 1600px; /* supaya tidak terlalu lebar */
+    margin: 0 auto; /* center container */
+    text-align: left; /* isi list rata kiri */
+    margin-left: 100px;
+}
+
+.skills-container ul {
+    list-style-position: inside;     /* bullet ikut text */
+    padding: 10px;
+}
+
+.skills-container div {
+  width: 80%;  /* kiri-kanan kira-kira sama rata */
+}
+
+.skills1 {
+    font-size: 18px;
+}
+
+.jarak {
+    line-height: 30px;
+}
+
+.box3 {
+    /*background-color: #07182c;*/
+    background-color: #141414;
+    width: 100px;
+    height: 200px;
+    opacity: 100%;
+    place-items: center;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.box4 {
+    /*background-color: #07182c;*/
+    background-color: #141414;
+    width: 100px;
+    height: 200px;
+    opacity: 100%;
+    place-items: center;
+    border-radius: 8px;
+    padding: 10px;
+    margin-right: 100px;
+}
+
+/*education*/
+.edu {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.edu1 {
+  width: 600px;        /* WAJIB ada ruang */
+  margin: 0 auto;      /* container ke tengah */
+  text-align: left;    /* teks rata kiri */
+}
+
+.edu2 {
+    line-height: 30px;
+}
+
+.box5{
+    /*background-color: #07182c;*/
+    background-color: #141414;
+    width: 900px;
+    height: 250px;
+    opacity: 100%;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    margin-left: 200px;
+    text-align: center;
+}
+
+.edu3 {
+    z-index: 1000;
+}
+
+/*organization*/
+.orga {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.orga1 {
+    line-height: 30px;
+    list-style-position: inside;
+    text-align: left;
+    width: 700px; 
+    margin-top: 0;     
+}
+
+.box6 {
+    /*background-color: #07182c;*/
+    background-color: #141414;
+    width: auto;
+    height: 250px;
+    opacity: 100%;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/*projects*/
+.pro {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.pro1 {
+    list-style-type: inside;
+    text-align: left;
+    line-height: 25px;
+}
+
+.pro2 {
+    list-style-type: none;
+    line-height: 25px;
+    text-align: left;
+}
+
+.box7 {
+    /*background-color: #07182c;*/
+    background-color: #141414;
+    width: 600px;
+    height: 300px;
+    opacity: 100%;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 330px;
+}
+
+/*experiences*/
+.exp {
+    text-align: center;
+}
+
+.exp1 {
+    text-align: left;
+    list-style-type: inside;
+    margin-left: 40px;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.box8 {
+    /*background-color: #07182c;*/
+    background-color: #141414;
+    width: 0 auto;
+    height: 250px;
+    opacity: 100%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+/*contact & sosmed*/
+.list {
+    list-style: none;
+}
+
+.consos2 {
+    text-decoration: none;
+    color: white;
+}
+
+
+.consos-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 kolom sama besar */
+    gap: 4px; /* jarak antar kolom */
+    max-width: 1200px; /* supaya tidak terlalu lebar */
+    margin: 0 auto; /* center container */
+    text-align: left; /* isi list rata kiri */
+}
+
+.consos1 {
+    line-height: 30px;
+    text-align: left;
+    margin-left: 160px;
+}
+
+.fa-brands {
+    font-size: 28px;
+    margin-right: 20px;
+}
+
+.fa-solid {
+    font-size: 28px;
+    margin-right: 20px;
+}
+
+.box9 {
+    /*background-color: #07182c;*/
+    background-color: #141414;
+    width: 0 auto;
+    height: 250px;
+    opacity: 100%;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
